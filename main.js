@@ -1,0 +1,8 @@
+const healthFacts = ["The global under-5 mortality rate declined by 44% since 2000.", "Since 2000, new HIV cases have decreased by 35%.", "In 2015, about 60% of the population that is at risk for malaria had access to insecticide-treated nets, compared to just 34% in 2010.", "86% of children receive their DTP3 vaccine, and administration of all three doses of hepatitis B vaccine reached 84% in 2015.", "The risk of dying from one of the four major non-communicable diseases – diabetes, cancer, chronic lung disease, and cardiovascular disease – declined by 17% among people ages 30-70 since 2000."];
+const povertyFacts = ["In 1960 about 65 percent of the world lived in poverty. This dropped to 44 percent in 1981 and today has dropped to just over 8 percent of the world population living in extreme poverty.", "Between 1980 and 2017, China reduced poverty from 84 percent to less than two percent today.", "In Vietnam, poverty dropped from 33 percent in 1993 to less than 10 percent in 2016.", "Pakistan’s poverty rate once reached 64 percent. According to the World Bank, that rate has declined to 29.5 percent, making it the second lowest in South Asia."]
+const positiveFacts = ["We don't have to deal with horse shit anymore.", "Our homes aren't filled with smoke from fires from cooking or heating.", "We are able to travel much further than we can walk.", "We can communicate with people anywhere in the world extremely cheaply."]
+
+console.log("Here are three positive things about the world:")
+console.log("1. " + healthFacts[Math.floor(Math.random() * healthFacts.length)])
+console.log("2. " + povertyFacts[Math.floor(Math.random() * povertyFacts.length)])
+console.log("3. " + positiveFacts[Math.floor(Math.random() * positiveFacts.length)])
